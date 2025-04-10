@@ -1,97 +1,22 @@
-/* Reset some basic styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Body and global styles */
+/* styles.css */
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
 }
 
-/* Hero Section */
-.hero {
-    background-color: #007bff;
-    color: white;
-    padding: 80px 20px;
+.hero-section {
+    background-color: #f8f9fa;
+    padding: 2rem 0;
 }
 
-.hero h1 {
-    font-size: 3rem;
-    margin-bottom: 10px;
-}
-
-.hero p {
-    font-size: 1.2rem;
-}
-
-/* Navbar styling */
-.navbar {
+.card {
+    transition: transform 0.3s;
     margin-bottom: 20px;
 }
 
-.navbar .navbar-brand {
-    font-size: 1.5rem;
+.card:hover {
+    transform: scale(1.05);
 }
 
-/* Search Section */
-.search-section {
-    background-color: #f8f9fa;
-    padding: 50px 20px;
-}
-
-.search-section h2 {
-    margin-bottom: 30px;
-    font-size: 2rem;
-}
-
-/* Input and button styles */
-.input-group {
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-.input-group input {
-    border-radius: 50px 0 0 50px;
-    border: 1px solid #ccc;
-    padding: 10px;
-    font-size: 1rem;
-}
-
-.input-group button {
-    border-radius: 0 50px 50px 0;
-    border: 1px solid #007bff;
-    background-color: #007bff;
-    color: white;
-    padding: 10px 20px;
-    font-size: 1rem;
-}
-
-/* Footer styles */
 footer {
-    background-color: #f8f9fa;
-    padding: 20px 0;
-    text-align: center;
-}
-
-/* Mobile responsiveness */
-@media (max-width: 768px) {
-    .hero h1 {
-        font-size: 2rem;
-    }
-
-    .hero p {
-        font-size: 1rem;
-    }
-
-    .input-group {
-        width: 100%;
-    }
-
-    .input-group input, .input-group button {
-        width: 100%;
-        margin-bottom: 10px;
-    }
+    margin-top: 50px;
 }
