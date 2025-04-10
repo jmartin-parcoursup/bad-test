@@ -13,7 +13,7 @@ function formatData(item) {
 }
 
 // 3. Chargement du fichier JSON
-fetch('data/api-data.json')
+fetch('./data/api-data.json')
     .then(response => {
         if (!response.ok) {
             throw new Error("Erreur de chargement du fichier JSON");
