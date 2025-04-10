@@ -1,1 +1,10 @@
-
+[
+  {
+    "nomCommune": "Paris",
+    "codePostal": "75001"
+  },
+  {
+    "nomCommune": "Lyon",
+    "codePostal": "69001"
+  }
+]
