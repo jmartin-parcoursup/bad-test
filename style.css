@@ -1,97 +1,47 @@
-/* Reset some basic styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Body and global styles */
 body {
     font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
     line-height: 1.6;
 }
 
-/* Hero Section */
-.hero {
-    background-color: #007bff;
-    color: white;
-    padding: 80px 20px;
-}
-
-.hero h1 {
-    font-size: 3rem;
-    margin-bottom: 10px;
-}
-
-.hero p {
-    font-size: 1.2rem;
-}
-
-/* Navbar styling */
-.navbar {
-    margin-bottom: 20px;
-}
-
-.navbar .navbar-brand {
-    font-size: 1.5rem;
-}
-
-/* Search Section */
-.search-section {
-    background-color: #f8f9fa;
-    padding: 50px 20px;
-}
-
-.search-section h2 {
-    margin-bottom: 30px;
-    font-size: 2rem;
-}
-
-/* Input and button styles */
-.input-group {
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-.input-group input {
-    border-radius: 50px 0 0 50px;
-    border: 1px solid #ccc;
-    padding: 10px;
-    font-size: 1rem;
-}
-
-.input-group button {
-    border-radius: 0 50px 50px 0;
-    border: 1px solid #007bff;
-    background-color: #007bff;
-    color: white;
-    padding: 10px 20px;
-    font-size: 1rem;
-}
-
-/* Footer styles */
-footer {
-    background-color: #f8f9fa;
-    padding: 20px 0;
+h1 {
+    color: #2c3e50;
     text-align: center;
 }
 
-/* Mobile responsiveness */
-@media (max-width: 768px) {
-    .hero h1 {
-        font-size: 2rem;
-    }
+.search-bar {
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
 
-    .hero p {
-        font-size: 1rem;
-    }
+.card {
+    background: #f9f9f9;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 
-    .input-group {
-        width: 100%;
-    }
+.card h2 {
+    margin-top: 0;
+    color: #3498db;
+}
 
-    .input-group input, .input-group button {
-        width: 100%;
-        margin-bottom: 10px;
-    }
+.error {
+    color: #e74c3c;
+    background: #fde8e8;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.error code {
+    background: #f0f0f0;
+    padding: 2px 4px;
+    border-radius: 3px;
 }
